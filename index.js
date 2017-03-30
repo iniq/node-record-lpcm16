@@ -69,7 +69,6 @@ exports.start = function (options) {
   console.log('CMD: ', cmd)
   console.log('Args: ', cmdArgs)
   console.log('Opts: ', cmdOptions)
-  
   var rec = cp.stdout
 
   if (options.verbose) {
